@@ -1,6 +1,8 @@
 # File cấu hình bí mật
 .env
 google-service-account.json
+aaa.ts
+
 
 # Thư mục thư viện
 node_modules/
