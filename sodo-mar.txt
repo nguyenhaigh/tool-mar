@@ -1,0 +1,57 @@
+.
+├── README.md
+├── aaa.ts
+├── backend-server
+│   ├── package-lock.json
+│   ├── package.json
+│   ├── src
+│   │   ├── api
+│   │   │   ├── export.routes.ts
+│   │   │   ├── insights.routes.ts
+│   │   │   ├── targets.routes.ts
+│   │   │   └── test.routes.ts
+│   │   ├── collectors
+│   │   │   ├── apify.collector.ts
+│   │   │   ├── gnews.collector.ts
+│   │   │   ├── reddit.collector.ts
+│   │   │   ├── trends.collector.ts
+│   │   │   └── youtube.collector.ts
+│   │   ├── config.ts
+│   │   ├── index.ts
+│   │   └── services
+│   │       ├── alert.service.ts
+│   │       ├── database.service.ts
+│   │       ├── export.service.ts
+│   │       ├── gemini.service.ts
+│   │       └── scheduler.service.ts
+│   └── tsconfig.json
+├── bi-dashboard
+│   └── Metabase_Dashboard_Setup.md
+├── database
+│   └── init.sql
+├── frontend-app
+│   ├── App.tsx
+│   ├── components
+│   │   ├── DataInputForm.tsx
+│   │   ├── Header.tsx
+│   │   ├── StagingTable.tsx
+│   │   ├── TargetManager.tsx
+│   │   └── icons
+│   │       ├── ChartBarIcon.tsx
+│   │       ├── CheckCircleIcon.tsx
+│   │       ├── MagicIcon.tsx
+│   │       ├── PlusIcon.tsx
+│   │       ├── SpinnerIcon.tsx
+│   │       └── TrashIcon.tsx
+│   ├── index.html
+│   ├── index.tsx
+│   ├── package-lock.json
+│   ├── package.json
+│   ├── services
+│   │   └── apiService.ts
+│   ├── tsconfig.json
+│   ├── types.ts
+│   └── vite.config.ts
+└── sodo-mar.txt
+
+12 directories, 43 files

@@ -1,0 +1,15 @@
+# File cấu hình bí mật
+.env
+google-service-account.json
+
+# Thư mục thư viện
+node_modules/
+
+# File rác từ YouTube
+*-player-script.js
+*-watch.html
+temp_audio_file.m4a
+
+# File build (Nếu có)
+dist/
+build/
